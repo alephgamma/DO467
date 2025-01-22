@@ -1,0 +1,6 @@
+---
+- name: helloworld
+  hosts: all
+  tasks:
+    - name: Quickcheck
+      ping:
