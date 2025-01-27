@@ -4,6 +4,6 @@
   tasks:
     - name: Quickcheck
       ping:
-    - name:
+    - name: The os_family
       debug:
         msg: "The ansible_os_family {{ ansible_os_family }}"
