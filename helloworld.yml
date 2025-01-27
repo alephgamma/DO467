@@ -6,4 +6,7 @@
       ping:
     - name: The os_family
       debug:
-        msg: "The ansible_os_family: {{ ansible_os_family }}"
+        msg: |
+           The ansible_os_family: {{ ansible_os_family }}
+           The ansible_distribution_release: {{ ansible_distribution_release }}
+           The ansible_distribution_version: {{ ansible_distribution_version }}
