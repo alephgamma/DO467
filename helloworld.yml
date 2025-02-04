@@ -2,7 +2,7 @@
 - name: helloworld
   hosts: all
   tasks:
-    - name: Quickcheck
+    - name: ping module
       ping:
     - name: The os_family
       debug:
